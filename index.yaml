@@ -1,14 +1,25 @@
 apiVersion: v1
 entries:
+  raw:
+  - apiVersion: v2
+    created: "2023-11-08T14:36:39.782308+05:30"
+    description: A place for all the Kubernetes resources which don't already have
+      a home
+    digest: 3c4b7eca980b6b32741af396e40473f07443f134aa6241c5ebffbb488c436917
+    kubeVersion: '>=1.16.0-0'
+    name: raw
+    urls:
+    - https://chrono-innovation.github.io/helm-charts/raw-v0.2.5.tgz
+    version: v0.2.5
   tekton:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2023-02-27T18:24:10.322689+05:30"
+    created: "2023-11-08T14:36:39.783119+05:30"
     description: Tekton Chart for Kubernetes
-    digest: 49f419c4873b438bd049c450a3b2ea448436c37f6d82c60fba6f29dc4598ddc0
+    digest: ebed85453ae2974c8aeec2ad258f61426691ce56aac1fac89bdfee107092b76a
     home: https://github.com/tektoncd
     name: tekton
     urls:
     - https://chrono-innovation.github.io/helm-charts/tekton-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-27T18:24:10.321731+05:30"
+generated: "2023-11-08T14:36:39.781502+05:30"
